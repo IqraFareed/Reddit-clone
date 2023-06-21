@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Icons } from "./Icons";
+import UserAuthFrom from "./UserAuthFrom";
 const SignIn = () => {
   return (
     <div className="container mx-auto flex w-full flex-col justify-center space-y-6 sm:w-[400px]">
@@ -11,6 +12,7 @@ const SignIn = () => {
           User Agreement and Privacy Policy.
         </p>
         {/* sign in form */}
+        <UserAuthFrom />
         <p className="px-8 text-center text-sm text-zinc-700">
           New to Breadit?{" "}
           <Link
